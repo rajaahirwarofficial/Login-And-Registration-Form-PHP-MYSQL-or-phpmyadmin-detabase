@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	height: 90vh;
+	width: auto;
+    background: url(../images/brushed.png);
+    
+}
+
+.navbar {
+	height: 70px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0px 5px 15px;
+	box-sizing: border-box;
+}
+
+.navbar ul {
+	float: right;
+	margin-top: 23px;
+	margin-right: 30px;
+	list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.navbar ul li a {
+	color: #fff;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar ul li a:hover {
+	background: red;
+	color: #fff;
+}
+
+.navbar h2 {
+	color: #fff;
+	float: left;
+	margin-top: 22px;
+	margin-left: 30px;
+	background: red;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 50px 50px 50px 50px; 
+}
+
+
+.loginbox {
+	height: 450px;
+	width: 300px;
+	background: rgba(0,0,0,0.7);
+	box-shadow: 0px 5px 15px;
+	box-sizing: border-box;
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+	border: 5px solid red;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.email {
+    text-align: center;
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.password {
+	height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submit {
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	background: red;
+	color: #fff;
+	height: 40px;
+	width: 70px;
+	font-size: 15px;
+}
+
+
+.submit:hover {
+	background: green;
+}
+
+.createaccount {
+	height: 50px;
+	width: 200px;
+	background: red;
+	margin: 0 auto;
+	margin-top: 120px;
+	border-radius: 50px 50px 50px 50px;
+	cursor: pointer;
+}
+
+.createaccount a {
+    text-decoration: none;
+}
+
+.createaccount h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 0px;
+}
+
+
+.createaccount:hover {
+	background: green;
+}
+
+#loginlogo {
+	background: red;
+	height: 70px;
+	width: 100px;
+	border: 1px solid red;
+	border-radius: 50px 50px 50px 50px;
+	margin: 0 auto;
+	margin-top: -35px;
+	color: #fff;
+}
+
+#loginlogo h2 {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.buttomline {
+	height: 10vh;
+	width: 100%;
+	background: #5E5A80;
+}
+
+.buttomline1 {
+    box-sizing: border-box;
+	box-shadow: 15px 5px 0px;
+	background: rgba(0,0,0,0.5);
+	height: 10vh;
+	width: 100%;
+}
+
+.Policy {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	list-style-type: none;
+	color: #fff;
+}
+
+.Policy ul li {
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.Policy ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+
+.Policy ul li a:hover {
+	background: red;
+}
+
+.socialicon {
+	float: right;
+	margin-right: 10px;
+	margin-top: 2px;
+	list-style-type: none;
+}
+
+.socialicon ul li {
+    display: inline-block;
+    padding: 5px 3px;
+}
+
+.socialicon ul li a {
+	padding: 5px 5px;
+}
+
+.socialicon ul li a img {
+	height: 50px;
+	width: auto;
+}
+
+.socialicon ul li a img:hover {
+	background: red;
+	border-radius: 50px 50px 50px 50px;
+}
+
+
+
+/** Github Help **/
+
+.form-popup {
+  height: 500px;
+  width: 400px;
+  background: rgba(0,0,0,0.7);
+  border: 5px solid red;
+  border-radius: 50px 50px 50px 50px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  box-shadow: 0px 5px 15px;
+}
+
+.form-popup h2 {
+	color: #fff;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.Registration-input {
+    text-align: center;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Registrationbtn { 
+	
+	margin-top: 30px;
+	background: red;
+	color: #fff;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.Registrationbtn:hover {
+	background: green;
+}
+
+
+.btncancel {
+	float: right;
+	margin-top: 20px;
+    margin-right: 20px;
+	height: 30px;
+	width: 30px;
+	color: red;
+	background: #fff;
+	border: 2px solid red;
+	border-radius: 50px 50px 50px 50px;
+	font-weight: bold;
+}
+
+.btncancel:hover {
+	background: rgba(0,0,0,0.1);
+}
